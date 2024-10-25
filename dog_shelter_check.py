@@ -10,12 +10,12 @@ from email.mime.text import MIMEText
 # Get email credentials from environment variables
 YOUR_EMAIL = os.getenv('EMAIL_USER')
 YOUR_PASSWORD = os.getenv('EMAIL_PASS')
-TO_EMAIL = "ljunicity@gmail.com"
+TO_EMAIL = "jordan.angelica@yahoo.com"
 SMTP_SERVER = "smtp.mail.yahoo.com"
 SMTP_PORT = 587
 
 # Breeds to check for
-desired_breeds = ["Maltipoo", "Maltese Poodle", "Maltese Poodle mix"]
+desired_breeds = ["Maltipoo", "Maltese Poodle", "Maltese Poodle mix", "German"]
 
 def send_email(subject, message):
     msg = MIMEMultipart()
