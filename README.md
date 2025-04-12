@@ -1,5 +1,5 @@
 # MV Animal Shelter Breed Checker
-
+ 
 This Python project was created for my mom, to automate the process of monitoring the **Mission Viejo Animal Shelter** website for specific dog breeds, such as **Maltese Poodle** or **Maltipoo**. When a desired breed is found, an email notification is sent automatically, ensuring that she never misses out on the chance to adopt a dog of her preferred breed.
 
 ## Features
